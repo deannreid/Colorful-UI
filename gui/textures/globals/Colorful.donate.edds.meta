@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{232B994A317703A9}Colorful-UI/gui/textures/globals/Colorful.donate.edds"
+ Author "thematrix"
+ ChangeDate -1900171609
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Colorful.donate.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

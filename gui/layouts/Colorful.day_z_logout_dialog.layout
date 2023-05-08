@@ -571,6 +571,7 @@ WindowWidgetClass LogoutDialogRoot {
             ImageWidgetClass DiscordBtn_img {
              clipchildren 0
              ignorepointer 1
+             position 0 3
              size 47 39
              halign right_ref
              valign center_ref
@@ -639,14 +640,15 @@ WindowWidgetClass LogoutDialogRoot {
             ImageWidgetClass TwitterBtn_img {
              clipchildren 0
              ignorepointer 1
-             size 47 39
+             position 8 0
+             size 35 32
              halign right_ref
              valign center_ref
              hexactpos 1
              vexactpos 1
              hexactsize 1
              vexactsize 1
-             imageTexture "{56507986E3807A3B}Colorful-UI/gui/textures/main_menu/Colorful.Twitter.edds"
+             imageTexture "{232B994A317703A9}Colorful-UI/gui/textures/globals/Colorful.donate.edds"
              mode blend
              "src alpha" 1
              "no wrap" 1
@@ -664,7 +666,7 @@ WindowWidgetClass LogoutDialogRoot {
              vexactpos 1
              hexactsize 0
              vexactsize 0
-             text "Twitter"
+             text "Donate"
              font "Colorful-UI/gui/fonts/PersonalServices24"
              "exact text" 1
              "size to text h" 1
