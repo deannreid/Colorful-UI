@@ -834,8 +834,8 @@ FrameWidgetClass main_menu_root {
             ImageWidgetClass TwitterBtn_img {
              clipchildren 0
              ignorepointer 1
-             position 8 0
-             size 35 32
+             position 9 1
+             size 30 28
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -847,7 +847,7 @@ FrameWidgetClass main_menu_root {
              "src alpha" 1
              "no wrap" 1
              stretch 1
-             filter 0
+             filter 1
             }
             TextWidgetClass TwitterBtn_label {
              clipchildren 0

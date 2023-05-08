@@ -15,13 +15,27 @@ string GetRandomBackground()
 		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-8.edds",
 		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-9.edds",
 		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-10.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-11.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-12.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-13.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-14.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-15.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-16.edds",
-		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-17.edds"
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-11.edds"
+	};
+	Math.Randomize(-1);
+	int bgIndex = Math.RandomInt(0, 100) % 17;
+	return images[bgIndex];
+}
+
+// RANDOM BACKGROUND IMAGES -----------------------------------------------
+string GetRandomMainMenus()
+{
+	const string images[] = {
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-1b.edds", 
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-2b.edds",
+        "Colorful-UI/gui/textures/loading_screens/Colorful-BG-3b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-4b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-5b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-6b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-7b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-8b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-9b.edds",
+		"Colorful-UI/gui/textures/loading_screens/Colorful-BG-10b.edds"
 	};
 	Math.Randomize(-1);
 	int bgIndex = Math.RandomInt(0, 100) % 17;
@@ -58,7 +72,6 @@ string GetRandomHint()
 	return tips[tipIndex];
 }
 
-
 // NOTE: ------------------------------------------------------------------
 // I used two fucntions because I wanted to be able to use colorin both
 // a global way and in possible uniuqe situations. 
@@ -91,7 +104,7 @@ class UIColor
 	
 	// Social Network Colors 
 	static int discord() 			  { return ARGB(255, 88, 101, 242); };
-	static int twitter() 			  { return ARGB(255, 29, 161, 242); };
+	static int twitter() 			  { return ARGB(255, 51, 204, 51); };
 	static int youtube() 			  { return ARGB(255, 255, 0, 0); };
 	static int reddit()               { return ARGB(255, 255, 69, 0); };
 	static int meta()                 { return ARGB(255, 24, 119, 242); };
@@ -119,10 +132,10 @@ class colorScheme
 	static int SecondaryText()      { return AccentColor(); };
 	static int ShaderColor()        { return BrandColor(); };
 	static int SeparatorColor()     { return BrandColor(); };
-	static int LoadingbarColor()    { return BrandColor(); };
-	static int MainMenuTrim()       { return BrandColor(); };
-	static int ButtonHoverColor()   { return BrandColor(); };	
-	static int TabHoverColor()      { return BrandColor(); };	
+	static int LoadingbarColor()    { return AccentColor(); };
+	static int MainMenuTrim()       { return AccentColor(); };
+	static int ButtonHoverColor()   { return AccentColor(); };	
+	static int TabHoverColor()      { return AccentColor(); };	
 	static int OptionInputColors()  { return BrandColor(); };
 	static int OptionCaretColors()  { return BrandColor(); };
 	static int OptionSliderColors() { return BrandColor(); };
