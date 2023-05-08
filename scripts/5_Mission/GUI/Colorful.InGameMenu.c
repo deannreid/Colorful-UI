@@ -40,6 +40,7 @@ modded class InGameMenu extends UIScriptedMenu
 		m_shader.SetColor(colorScheme.ShaderColor());
 		m_Separator.SetColor(colorScheme.SeparatorColor());
 		return layoutRoot;
+
 	}
 
 	override bool OnClick(Widget w, int x, int y, int button)

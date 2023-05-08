@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{778432D63DCA572A}Colorful-UI/gui/textures/globals/Z046_Logo.edds"
+ Author "thematrix"
+ ChangeDate -1841811800
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Z046_Logo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
