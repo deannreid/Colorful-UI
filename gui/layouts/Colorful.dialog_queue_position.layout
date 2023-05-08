@@ -189,7 +189,7 @@ PanelWidgetClass TextInputDialogRoot {
      valign bottom_ref
      vexactpos 0
      text "You will be able to join when someone leaves the server."
-     font "Colorful-ui/gui/fonts/OpenSansV-Italic18"
+     font "gui/fonts/Metron-Bold22"
      "exact text" 1
      "size to text h" 1
      "size to text v" 1
@@ -290,7 +290,7 @@ PanelWidgetClass TextInputDialogRoot {
   ProgressBarWidgetClass LoadingBar {
    ignorepointer 1
    color 0.8118 0.8118 0.8118 1
-   size 1 20
+   size 1 8
    halign center_ref
    valign bottom_ref
    hexactpos 1

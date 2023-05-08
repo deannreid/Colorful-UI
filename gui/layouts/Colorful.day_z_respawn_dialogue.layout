@@ -42,7 +42,7 @@ WindowWidgetClass WindowWidget {
        visible 1
        ignorepointer 0
        color 0 0 0 0.7843
-       position 0 0
+       position 0 -0.4172
        size 1 1
        halign center_ref
        valign center_ref
@@ -372,7 +372,8 @@ WindowWidgetClass WindowWidget {
               ImageWidgetClass DiscordBtn_img {
                clipchildren 0
                ignorepointer 1
-               size 47 39
+               position 0 3
+               size 47 40
                halign right_ref
                valign center_ref
                hexactpos 1
@@ -440,6 +441,7 @@ WindowWidgetClass WindowWidget {
               ImageWidgetClass TwitterBtn_img {
                clipchildren 0
                ignorepointer 1
+               position 0 0
                size 47 39
                halign right_ref
                valign center_ref
@@ -465,7 +467,7 @@ WindowWidgetClass WindowWidget {
                vexactpos 1
                hexactsize 0
                vexactsize 0
-               text "Twitter"
+               text "Donate"
                font "Colorful-UI/gui/fonts/PersonalServices24"
                "exact text" 1
                "size to text h" 1
@@ -478,7 +480,7 @@ WindowWidgetClass WindowWidget {
            }
           }
           ButtonWidgetClass RedditBtn {
-           visible 1
+           visible 0
            color 0 0 0 0
            size 293 39
            halign right_ref
@@ -547,7 +549,7 @@ WindowWidgetClass WindowWidget {
            }
           }
           ButtonWidgetClass YoutubeBtn {
-           visible 1
+           visible 0
            color 0 0 0 0
            size 293 39
            halign right_ref
@@ -615,7 +617,7 @@ WindowWidgetClass WindowWidget {
            }
           }
           ButtonWidgetClass FacebookBtn {
-           visible 1
+           visible 0
            color 0 0 0 0
            size 293 39
            halign right_ref
@@ -683,7 +685,7 @@ WindowWidgetClass WindowWidget {
            }
           }
           ButtonWidgetClass MetaBtn {
-           visible 1
+           visible 0
            color 0 0 0 0
            size 293 39
            halign right_ref

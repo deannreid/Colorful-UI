@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C432C7237894B8AD}Colorful-UI/gui/textures/loading_screens/Colorful-BG-9b.edds"
+ Author "thematrix"
+ ChangeDate -1084395865
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Colorful-BG-9b.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

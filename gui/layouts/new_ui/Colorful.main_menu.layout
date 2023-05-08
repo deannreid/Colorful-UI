@@ -477,7 +477,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass choose_server {
-         visible 1
+         visible 0
          color 0 0 0 1
          size 293 42
          halign right_ref
@@ -581,6 +581,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass QueueBtn {
+         visible 0
          color 0 0 0 0
          position 0 0
          size 293 42
@@ -598,6 +599,7 @@ FrameWidgetClass main_menu_root {
          "next down" "play_video"
          {
           PanelWidgetClass QueueBtn_panel {
+           visible 0
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -610,6 +612,7 @@ FrameWidgetClass main_menu_root {
            style DayZDefaultPanel
            {
             TextWidgetClass QueueBtn_label {
+             visible 1
              clipchildren 0
              ignorepointer 1
              position 8 0
@@ -632,6 +635,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass WebsiteBtn {
+         visible 0
          color 0 0 0 0
          position 0 0
          size 293 42
@@ -867,7 +871,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass RedditBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 39
          halign right_ref
@@ -936,7 +940,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass YoutubeBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 39
          halign right_ref
@@ -1004,7 +1008,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass FacebookBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 39
          halign right_ref

@@ -1,0 +1,6 @@
+//<'system.pbo' properties via Mikero's dos tools, dll version 9.36>
+product=dayz;
+prefix=Colorful-UI;
+version=100302;
+//PboType=Arma Unknown pbo type (no config or mission).;
+//</properties>
